@@ -6,8 +6,8 @@ const Presentation = forwardRef((props, ref) => {
     return (
       <>
       <div ref={ref} className='pt-24'></div>
-      <div className="pt--24 h-[36rem] bg-[url('./assets/circles.svg')] bg-cover relative">
-        <div className="h-[38rem] backdrop-blur-lg flex place-items-center justify-evenly">
+      <div className="pt--24 h-[80vh] bg-[url('./assets/circles.svg')] bg-cover relative">
+        <div className="h-[85vh] backdrop-blur-lg flex place-items-center justify-evenly">
           <PresentationText/>
           <Hire></Hire>
         </div>

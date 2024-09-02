@@ -11,7 +11,7 @@ const Contactme = forwardRef((props, ref) => {
         
         <div ref={ref} className="my-40 flex flex-wrap justify-evenly">
           <h3 className="font-stencil text-white text-5xl w-auto">
-          Want to know<br />me Better? <br /><br />We can talk <br />through...
+          Want to know<br />me better? <br /><br />We can talk <br />through...
           </h3>
           <div >
             <Contact

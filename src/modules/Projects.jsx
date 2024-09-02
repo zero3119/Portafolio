@@ -8,9 +8,9 @@ const Projects = forwardRef((props, ref) => {
 
     <>
       <div ref={ref} className='pt-10'></div>
-      <div  className="mt-10 p-0 h-[40rem] relative bg-[#001212] ">
-        <div className="absolute h-[44rem] w-full -top-10 backdrop-blur-lg">
-          <h2 className="text-white text-6xl w-full font-stencil my-20 p-0 text-center">Projects</h2>
+      <div  className="mt-10 p-0 h-[90vh] relative bg-[#001212] ">
+        <div className="absolute h-[100vh] w-full -top-10 backdrop-blur-lg">
+          <h2 className="text-white text-5xl w-full font-stencil my-20 p-0 text-center">Projects</h2>
           <div className="flex flex-nowrap justify-evenly">
             <Cards
             img={Massaphoto}
