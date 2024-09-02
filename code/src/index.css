@@ -1,4 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+.btn-14 {
+    @apply  border-white relative z-10;
+  }
+
+  .btn-14::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: .75rem;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all .5s ease;
+  }
+
+
+  .btn-14:hover::after {
+    top: 0;
+    bottom: auto;
+    height: 100%;
+  }
+
+.btn-5 {
+    @apply  border-white relative z-10;
+  }
+  .btn-5:hover {
+    color: white;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right: 15px;
+    height:2px;
+    width:0;
+    background: #00957D;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left: 15px;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:85%;
+    transition:800ms ease all;
+  }
+
+.btn-15 {
+    @apply  border-white relative z-10;
+  }
+
 
 
 @tailwind base;
